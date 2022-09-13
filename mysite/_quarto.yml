@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Moses C. Kiti"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Work projects"
+        href: workprojects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Personal projects"
+        href: personalprojects.qmd
+        
+    search: true
+    tools: 
+      - icon: twitter
+        href: https://twitter.com/chapakiti
+        
+    page-navigation: true
+    page-footer: "Copyright 2022, Moses C. Kiti"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
